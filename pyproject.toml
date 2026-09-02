@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyproject-forge"
-version = "1.0.2"
+version = "1.0.3"
 description = "Scan a directory tree and auto-generate pyproject.toml console_scripts entries, ensuring every script folder has a __main__.py."
 readme = "README.md"
 requires-python = ">=3.9"
