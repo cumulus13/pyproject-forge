@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# File: pyproject-forge/pyproject_forge/toml_writer.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
 """Creates or merges pyproject.toml. Existing files are parsed with
 tomlkit and only the sections pyproject-forge owns
 ([project.scripts], [tool.setuptools.packages], and — only on first

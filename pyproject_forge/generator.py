@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# File: pyproject-forge/pyproject_forge/generator.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
 """Turns a PackageCandidate into a ready console-script package:
 ensures __init__.py exists, ensures __main__.py exists with a resolvable
 main()/usage() entry point, and reports what it did (or refused to do).

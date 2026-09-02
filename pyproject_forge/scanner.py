@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# File: pyproject-forge/pyproject_forge/scanner.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
 """Walks a working directory and finds candidate "script packages":
 folders containing .py files that should become an importable package
 with a console_scripts entry point.

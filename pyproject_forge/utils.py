@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# File: pyproject-forge/pyproject_forge/utils.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
 """Small stateless helpers: name sanitizing, path/module conversion."""
 
 from __future__ import annotations

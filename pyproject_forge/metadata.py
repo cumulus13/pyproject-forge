@@ -1,10 +1,11 @@
-"""Resolves [project] metadata (author, email, license, description, ...)
-from four sources, in this precedence order (highest wins):
+#!/usr/bin/env python3
 
-    1. CLI flags            (--author, --license, ...)
-    2. project-local config (<root>/.pyprojectforge.toml)
-    3. global config        (~/.config/pyproject-forge/defaults.toml)
-    4. source file headers  (shebang + '# Author:'/'# License:' etc.
+# File: pyproject-forge/pyproject_forge/metadata.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
                               comment blocks found in the scanned .py
                               files — see header_parser.py)
     5. interactive prompt   (only for the core fields, only on a TTY,

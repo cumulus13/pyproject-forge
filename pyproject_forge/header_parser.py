@@ -1,12 +1,10 @@
-"""Detects shebang lines and structured header comment blocks at the top
-of .py files, e.g.:
+#!/usr/bin/env python3
 
-    #!/usr/bin/env python3
-    # File: bmkg/bmkg.py
-    # Author: Hadi Cahyadi <cumulus13@gmail.com>
-    # Date: 2026-09-01
-    # Description: Fetches BMKG weather data
-    # License: MIT
+# File: pyproject-forge/pyproject_forge/header_parser.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
 
 Used two ways:
   - as a project-metadata source, sitting below explicit CLI/config

@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# File: pyproject-forge/tests/test_detector.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
 from pyproject_forge.detector import find_entry_candidates, rank_candidates
 
 

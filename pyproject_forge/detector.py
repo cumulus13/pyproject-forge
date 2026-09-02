@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+
+# File: pyproject-forge/pyproject_forge/detector.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
+
 """Static (AST-based) detection of entry-point functions.
 
 We never import user code to inspect it (that would execute arbitrary

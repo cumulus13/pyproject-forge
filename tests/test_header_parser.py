@@ -1,15 +1,11 @@
-from pyproject_forge.header_parser import detect_shebang, parse_header, scan_headers
+#!/usr/bin/env python3
 
+# File: pyproject-forge/tests/test_header_parser.py
+# Author: Hadi Cahyadi <cumulus13@gmail.com>
+# Date: 2026-09-02 11:34:12
+# Description: 
+# License: MIT
 
-def test_parses_full_header_block(tmp_path):
-    f = tmp_path / "bmkg.py"
-    f.write_text(
-        "#!/usr/bin/env python3\n"
-        "# File: bmkg/bmkg.py\n"
-        "# Author: Hadi Cahyadi <cumulus13@gmail.com>\n"
-        "# Date: 2026-09-01\n"
-        "# Description: Fetches BMKG weather data\n"
-        "# License: MIT\n"
         "\n"
         "def main():\n"
         "    return 0\n"
